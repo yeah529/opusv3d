@@ -1,0 +1,12 @@
+{
+  "fps": 24,
+  "size": [1920, 1080],
+  "bpm": 100,
+  "dur": 6.0,
+  "fade_in": 0.5,
+  "fade_out": 0.8,
+  "marks": {},
+  "shots": [
+    {"id": "SH010", "world": "MAIN"}
+  ]
+}

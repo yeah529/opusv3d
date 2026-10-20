@@ -1,0 +1,22 @@
+{
+  "fps": 30,
+  "size": [1920, 1080],
+  "bpm": 120,
+  "dur": 22.0,
+  "fade_out": 0.8,
+  "allow_dark": [[0, 1.0]],
+  "marks": {
+    "assemble": 0.4, "lift": 2.0, "out": "beat:10", "insert": "beat:16", "breach": "beat:18",
+    "dive": 10.6, "land": 12.4, "grow": 13.0, "fruit": 14.6, "fall": 14.95, "giant": 15.6, "peak": 16.9,
+    "low": "beat:35", "home": 19.4
+  },
+  "shots": [
+    {"id": "s1", "world": "SCREEN"},
+    {"id": "s2", "world": "DESK", "in": {"type": "pull_out", "t": "@out", "dur": 1.5, "surface": "mon.screen"}},
+    {"id": "s3", "world": "DESK", "in": {"type": "cut", "t": "@insert"}},
+    {"id": "s4", "world": "DESK", "in": {"type": "breach", "t": "@breach", "dur": 0.8, "anchor": "screen_hero"}},
+    {"id": "s5", "world": "MEADOW", "in": {"type": "push_in", "t": "bar:7", "dur": 1.4, "surface": "kb.glass.top"}},
+    {"id": "s6", "world": "MEADOW", "in": {"type": "lens", "t": "@low", "dur": 0.8}},
+    {"id": "s7", "world": "DESK", "in": {"type": "iris", "t": "@home", "dur": 0.5, "mode": "close", "anchor": ["giant", "mini_giant"]}}
+  ]
+}
